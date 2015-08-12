@@ -1,0 +1,33 @@
+{
+  "name": "file-has-changed",
+  "version": "1.0.0",
+  "description": "check to see if a file has changed since another file has been changed. useful for refreshing cache files.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soldair/file-has-changed.git"
+  },
+  "keywords": [
+    "change",
+    "fs",
+    "cache",
+    "file",
+    "mtime"
+  ],
+  "author": "Ryan Day <soldair@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soldair/file-has-changed/issues"
+  },
+  "homepage": "https://github.com/soldair/file-has-changed#readme",
+  "devDependencies": {
+    "tape": "^4.0.3",
+    "touch": "^1.0.0"
+  }
+}
