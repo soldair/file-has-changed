@@ -8,8 +8,6 @@ test("can determine if the file should be changed",function(t){
 
   var start = Date.now()
 
-  console.log(new Date(start))
-
   var later;
 
   function example(){
